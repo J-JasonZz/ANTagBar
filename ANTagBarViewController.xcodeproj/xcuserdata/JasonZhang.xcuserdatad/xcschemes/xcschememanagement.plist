@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ANTagBarViewController.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A87C7C161E2F41470017EB77</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A87C7C2F1E2F41470017EB77</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A87C7C3A1E2F41470017EB77</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

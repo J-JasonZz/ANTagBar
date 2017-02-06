@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A87C7C1C1E2F41470017EB77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C7C1B1E2F41470017EB77 /* main.m */; };
+		A87C7C1F1E2F41470017EB77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C7C1E1E2F41470017EB77 /* AppDelegate.m */; };
+		A87C7C221E2F41470017EB77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C7C211E2F41470017EB77 /* ViewController.m */; };
+		A87C7C251E2F41470017EB77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87C7C231E2F41470017EB77 /* Main.storyboard */; };
+		A87C7C271E2F41470017EB77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A87C7C261E2F41470017EB77 /* Assets.xcassets */; };
+		A87C7C2A1E2F41470017EB77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87C7C281E2F41470017EB77 /* LaunchScreen.storyboard */; };
+		A87C7C351E2F41470017EB77 /* ANTagBarViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C7C341E2F41470017EB77 /* ANTagBarViewControllerTests.m */; };
+		A87C7C401E2F41470017EB77 /* ANTagBarViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C7C3F1E2F41470017EB77 /* ANTagBarViewControllerUITests.m */; };
+		A87C7C541E2F41E60017EB77 /* ANTagBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C7C531E2F41E60017EB77 /* ANTagBar.m */; };
+		A87C7C571E2F43300017EB77 /* ANTagBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C7C561E2F43300017EB77 /* ANTagBarViewController.m */; };
+		A87C7C5A1E2F4C9D0017EB77 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A87C7C591E2F4C9D0017EB77 /* DemoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A87C7C311E2F41470017EB77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A87C7C0F1E2F41470017EB77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A87C7C161E2F41470017EB77;
+			remoteInfo = ANTagBarViewController;
+		};
+		A87C7C3C1E2F41470017EB77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A87C7C0F1E2F41470017EB77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A87C7C161E2F41470017EB77;
+			remoteInfo = ANTagBarViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A87C7C171E2F41470017EB77 /* ANTagBarViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ANTagBarViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87C7C1B1E2F41470017EB77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A87C7C1D1E2F41470017EB77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A87C7C1E1E2F41470017EB77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A87C7C201E2F41470017EB77 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A87C7C211E2F41470017EB77 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A87C7C241E2F41470017EB77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A87C7C261E2F41470017EB77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A87C7C291E2F41470017EB77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A87C7C2B1E2F41470017EB77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A87C7C301E2F41470017EB77 /* ANTagBarViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ANTagBarViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87C7C341E2F41470017EB77 /* ANTagBarViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANTagBarViewControllerTests.m; sourceTree = "<group>"; };
+		A87C7C361E2F41470017EB77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A87C7C3B1E2F41470017EB77 /* ANTagBarViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ANTagBarViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A87C7C3F1E2F41470017EB77 /* ANTagBarViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANTagBarViewControllerUITests.m; sourceTree = "<group>"; };
+		A87C7C411E2F41470017EB77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A87C7C521E2F41E60017EB77 /* ANTagBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANTagBar.h; sourceTree = "<group>"; };
+		A87C7C531E2F41E60017EB77 /* ANTagBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANTagBar.m; sourceTree = "<group>"; };
+		A87C7C551E2F43300017EB77 /* ANTagBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANTagBarViewController.h; sourceTree = "<group>"; };
+		A87C7C561E2F43300017EB77 /* ANTagBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANTagBarViewController.m; sourceTree = "<group>"; };
+		A87C7C581E2F4C9D0017EB77 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		A87C7C591E2F4C9D0017EB77 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A87C7C141E2F41470017EB77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87C7C2D1E2F41470017EB77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87C7C381E2F41470017EB77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A87C7C0E1E2F41470017EB77 = {
+			isa = PBXGroup;
+			children = (
+				A87C7C191E2F41470017EB77 /* ANTagBarViewController */,
+				A87C7C331E2F41470017EB77 /* ANTagBarViewControllerTests */,
+				A87C7C3E1E2F41470017EB77 /* ANTagBarViewControllerUITests */,
+				A87C7C181E2F41470017EB77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A87C7C181E2F41470017EB77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A87C7C171E2F41470017EB77 /* ANTagBarViewController.app */,
+				A87C7C301E2F41470017EB77 /* ANTagBarViewControllerTests.xctest */,
+				A87C7C3B1E2F41470017EB77 /* ANTagBarViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A87C7C191E2F41470017EB77 /* ANTagBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A87C7C511E2F41CF0017EB77 /* ANTagBarViewController */,
+				A87C7C1D1E2F41470017EB77 /* AppDelegate.h */,
+				A87C7C1E1E2F41470017EB77 /* AppDelegate.m */,
+				A87C7C201E2F41470017EB77 /* ViewController.h */,
+				A87C7C211E2F41470017EB77 /* ViewController.m */,
+				A87C7C581E2F4C9D0017EB77 /* DemoViewController.h */,
+				A87C7C591E2F4C9D0017EB77 /* DemoViewController.m */,
+				A87C7C231E2F41470017EB77 /* Main.storyboard */,
+				A87C7C261E2F41470017EB77 /* Assets.xcassets */,
+				A87C7C281E2F41470017EB77 /* LaunchScreen.storyboard */,
+				A87C7C2B1E2F41470017EB77 /* Info.plist */,
+				A87C7C1A1E2F41470017EB77 /* Supporting Files */,
+			);
+			path = ANTagBarViewController;
+			sourceTree = "<group>";
+		};
+		A87C7C1A1E2F41470017EB77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A87C7C1B1E2F41470017EB77 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A87C7C331E2F41470017EB77 /* ANTagBarViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A87C7C341E2F41470017EB77 /* ANTagBarViewControllerTests.m */,
+				A87C7C361E2F41470017EB77 /* Info.plist */,
+			);
+			path = ANTagBarViewControllerTests;
+			sourceTree = "<group>";
+		};
+		A87C7C3E1E2F41470017EB77 /* ANTagBarViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A87C7C3F1E2F41470017EB77 /* ANTagBarViewControllerUITests.m */,
+				A87C7C411E2F41470017EB77 /* Info.plist */,
+			);
+			path = ANTagBarViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		A87C7C511E2F41CF0017EB77 /* ANTagBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A87C7C521E2F41E60017EB77 /* ANTagBar.h */,
+				A87C7C531E2F41E60017EB77 /* ANTagBar.m */,
+				A87C7C551E2F43300017EB77 /* ANTagBarViewController.h */,
+				A87C7C561E2F43300017EB77 /* ANTagBarViewController.m */,
+			);
+			path = ANTagBarViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A87C7C161E2F41470017EB77 /* ANTagBarViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87C7C441E2F41470017EB77 /* Build configuration list for PBXNativeTarget "ANTagBarViewController" */;
+			buildPhases = (
+				A87C7C131E2F41470017EB77 /* Sources */,
+				A87C7C141E2F41470017EB77 /* Frameworks */,
+				A87C7C151E2F41470017EB77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ANTagBarViewController;
+			productName = ANTagBarViewController;
+			productReference = A87C7C171E2F41470017EB77 /* ANTagBarViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A87C7C2F1E2F41470017EB77 /* ANTagBarViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87C7C471E2F41470017EB77 /* Build configuration list for PBXNativeTarget "ANTagBarViewControllerTests" */;
+			buildPhases = (
+				A87C7C2C1E2F41470017EB77 /* Sources */,
+				A87C7C2D1E2F41470017EB77 /* Frameworks */,
+				A87C7C2E1E2F41470017EB77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A87C7C321E2F41470017EB77 /* PBXTargetDependency */,
+			);
+			name = ANTagBarViewControllerTests;
+			productName = ANTagBarViewControllerTests;
+			productReference = A87C7C301E2F41470017EB77 /* ANTagBarViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A87C7C3A1E2F41470017EB77 /* ANTagBarViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A87C7C4A1E2F41470017EB77 /* Build configuration list for PBXNativeTarget "ANTagBarViewControllerUITests" */;
+			buildPhases = (
+				A87C7C371E2F41470017EB77 /* Sources */,
+				A87C7C381E2F41470017EB77 /* Frameworks */,
+				A87C7C391E2F41470017EB77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A87C7C3D1E2F41470017EB77 /* PBXTargetDependency */,
+			);
+			name = ANTagBarViewControllerUITests;
+			productName = ANTagBarViewControllerUITests;
+			productReference = A87C7C3B1E2F41470017EB77 /* ANTagBarViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A87C7C0F1E2F41470017EB77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = wscn;
+				TargetAttributes = {
+					A87C7C161E2F41470017EB77 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 49FUNDNGC6;
+						ProvisioningStyle = Automatic;
+					};
+					A87C7C2F1E2F41470017EB77 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A87C7C161E2F41470017EB77;
+					};
+					A87C7C3A1E2F41470017EB77 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A87C7C161E2F41470017EB77;
+					};
+				};
+			};
+			buildConfigurationList = A87C7C121E2F41470017EB77 /* Build configuration list for PBXProject "ANTagBarViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A87C7C0E1E2F41470017EB77;
+			productRefGroup = A87C7C181E2F41470017EB77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A87C7C161E2F41470017EB77 /* ANTagBarViewController */,
+				A87C7C2F1E2F41470017EB77 /* ANTagBarViewControllerTests */,
+				A87C7C3A1E2F41470017EB77 /* ANTagBarViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A87C7C151E2F41470017EB77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87C7C2A1E2F41470017EB77 /* LaunchScreen.storyboard in Resources */,
+				A87C7C271E2F41470017EB77 /* Assets.xcassets in Resources */,
+				A87C7C251E2F41470017EB77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87C7C2E1E2F41470017EB77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87C7C391E2F41470017EB77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A87C7C131E2F41470017EB77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87C7C221E2F41470017EB77 /* ViewController.m in Sources */,
+				A87C7C541E2F41E60017EB77 /* ANTagBar.m in Sources */,
+				A87C7C1F1E2F41470017EB77 /* AppDelegate.m in Sources */,
+				A87C7C5A1E2F4C9D0017EB77 /* DemoViewController.m in Sources */,
+				A87C7C1C1E2F41470017EB77 /* main.m in Sources */,
+				A87C7C571E2F43300017EB77 /* ANTagBarViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87C7C2C1E2F41470017EB77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87C7C351E2F41470017EB77 /* ANTagBarViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87C7C371E2F41470017EB77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A87C7C401E2F41470017EB77 /* ANTagBarViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A87C7C321E2F41470017EB77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A87C7C161E2F41470017EB77 /* ANTagBarViewController */;
+			targetProxy = A87C7C311E2F41470017EB77 /* PBXContainerItemProxy */;
+		};
+		A87C7C3D1E2F41470017EB77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A87C7C161E2F41470017EB77 /* ANTagBarViewController */;
+			targetProxy = A87C7C3C1E2F41470017EB77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A87C7C231E2F41470017EB77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A87C7C241E2F41470017EB77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A87C7C281E2F41470017EB77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A87C7C291E2F41470017EB77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A87C7C421E2F41470017EB77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A87C7C431E2F41470017EB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A87C7C451E2F41470017EB77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 49FUNDNGC6;
+				INFOPLIST_FILE = ANTagBarViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wscn.ANTagBarViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A87C7C461E2F41470017EB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 49FUNDNGC6;
+				INFOPLIST_FILE = ANTagBarViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wscn.ANTagBarViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A87C7C481E2F41470017EB77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ANTagBarViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wscn.ANTagBarViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ANTagBarViewController.app/ANTagBarViewController";
+			};
+			name = Debug;
+		};
+		A87C7C491E2F41470017EB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ANTagBarViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wscn.ANTagBarViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ANTagBarViewController.app/ANTagBarViewController";
+			};
+			name = Release;
+		};
+		A87C7C4B1E2F41470017EB77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ANTagBarViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wscn.ANTagBarViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ANTagBarViewController;
+			};
+			name = Debug;
+		};
+		A87C7C4C1E2F41470017EB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ANTagBarViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wscn.ANTagBarViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ANTagBarViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A87C7C121E2F41470017EB77 /* Build configuration list for PBXProject "ANTagBarViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87C7C421E2F41470017EB77 /* Debug */,
+				A87C7C431E2F41470017EB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A87C7C441E2F41470017EB77 /* Build configuration list for PBXNativeTarget "ANTagBarViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87C7C451E2F41470017EB77 /* Debug */,
+				A87C7C461E2F41470017EB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A87C7C471E2F41470017EB77 /* Build configuration list for PBXNativeTarget "ANTagBarViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87C7C481E2F41470017EB77 /* Debug */,
+				A87C7C491E2F41470017EB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A87C7C4A1E2F41470017EB77 /* Build configuration list for PBXNativeTarget "ANTagBarViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87C7C4B1E2F41470017EB77 /* Debug */,
+				A87C7C4C1E2F41470017EB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A87C7C0F1E2F41470017EB77 /* Project object */;
+}
